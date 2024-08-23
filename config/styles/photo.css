@@ -1,0 +1,83 @@
+body{
+    background-image: url('../photo/abstract-paper-background-concept.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0; 
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    backdrop-filter: blur(30px); 
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.171);
+    border-radius: 20px;
+    display: inline-flexbox;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+.photos{
+    background-color:rgba(255, 255, 255, 0.178);
+    backdrop-filter: red(50px);
+    transform: scale(1.1);
+    width: 90%;
+    height: 70%;
+    margin-left: 61px;
+    margin-top: 50px;
+}
+.presentations{
+    background-color: transparent;
+    width: 95%;
+    height: 100%;
+    padding: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 90px;
+    padding: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(107, 107, 107); 
+    border-radius: 50px;
+    width: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2b2b2b; 
+  }
+
+  .kodfun-galeri{
+    display: flex;
+    height: 20rem;
+    width: 65rem;
+    gap: 1rem;
+  }
+  .kodfun-galeri > div{
+    flex: 1 ;
+    border-radius: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+  }
+  .kodfun-galeri > div:hover{
+    flex: 5;
+  }
